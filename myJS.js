@@ -23,6 +23,11 @@ document.getElementById("date").innerHTML = mt + "-" + de + "-" + yr;
 function changeDate(){
     let te = document.getElementById("numberText").value;
     console.log("Something", te);
+    let newDate =  new Date();
+    let yr = newDate.getFullYear();
+    let mt = newDate.getMonth() + 1;
+    let de = newDate.getDate();
+    let todaysDate = yr + "-" + mt + "-" + de;
     let a = moment(todaysDate); 
     let b = a.add(te, 'days'); 
     console.log(b.format());
