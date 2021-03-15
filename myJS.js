@@ -11,14 +11,6 @@ document.getElementById("titleButton").addEventListener("click", addTitle);
 
 document.getElementById("numberButton").addEventListener("click", changeDate);
 
-const _ = require('lodash'); 
-
-_.delay(function(text) { 
-    console.log(text); 
-  }, 3000, 'Testing lodash'); 
-  
-
-console.log('Content:');
 
 
 let newDate =  new Date();
