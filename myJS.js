@@ -12,7 +12,6 @@ document.getElementById("titleButton").addEventListener("click", addTitle);
 document.getElementById("numberButton").addEventListener("click", changeDate);
 
 
-
 let newDate =  new Date();
 let yr = newDate.getFullYear();
 let mt = newDate.getMonth() + 1;
