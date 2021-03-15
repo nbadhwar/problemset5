@@ -16,7 +16,7 @@ let newDate =  new Date();
 let yr = newDate.getFullYear();
 let mt = newDate.getMonth() + 1;
 let de = newDate.getDate();
-todaysDate = yr + "-" + mt + "-" + de;
+let todaysDate = yr + "-" + mt + "-" + de;
 console.log("here", todaysDate);
 document.getElementById("date").innerHTML = mt + "-" + de + "-" + yr;
 
